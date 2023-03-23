@@ -1,0 +1,175 @@
+.main__pages {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 100;
+  .page {
+    flex: 1 1 auto;
+    height: 100vh;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+      margin-top: 10px;
+      text-align: center;
+      margin-bottom: 15px;
+      &__img{
+        path{
+          transition: fill 0.2s ease-in-out;
+          fill: #000000;
+        }
+        &-white{
+          path{
+            fill: #a4a4a4;
+          }
+        }
+      }
+    }
+
+    .logo__name {
+      font-size: 14px;
+      line-height: 21px;
+      text-transform: uppercase;
+      margin-top: 7px;
+      color: #949494;
+      transition: color 0.2s ease-in-out;
+      &.logo__name-white{
+        color: #a4a4a4;
+      }
+    }
+    &__content--wrapper{
+      height: calc(100% - 27%);
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      background: transparent;
+      transition: background-color 0.5s ease-in-out;
+      .wrapper--blur{
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      &-neura{
+        position: relative;
+        &:before{
+          content: '';
+          background: url("../../assets/neur.png") center / contain no-repeat;
+          animation: neura-page;
+          animation-duration: 6s;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: block;
+        }
+        .project-logo{
+          animation: neura-page;
+          animation-duration: 4s;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 20%;
+          height: 20%;
+          background: url("../../assets/neura-logo.svg") center / contain no-repeat;
+        }
+      }
+      &-supreme{
+        .project-logo{
+          position: absolute;
+          animation: supreme-page;
+          animation-duration: 4s;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 15%;
+          height: 20%;
+          background: url("../../assets/supreme-logo.png") center / contain no-repeat;
+        }
+      }
+      &-sakrai{
+        .project-logo{
+          animation: sakrai-page;
+          animation-duration:4s;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 30%;
+          height: 30%;
+          background: url("../../assets/sakrai-logo.png") center / contain no-repeat;
+        }
+      }
+      .page__content {
+        padding: 5% 15%;
+        overflow: auto;
+        height: 100%;
+        text-align: justify;
+        &::-webkit-scrollbar{
+          display: none;
+        }
+      }
+      .blur-block{
+        position: absolute;
+        right: 0;
+        left: 0;
+        height: 7%;
+        z-index: 2;
+        backdrop-filter: blur(5px);
+      }
+      .top--blur{
+        top: 0;
+        background: linear-gradient(to bottom, #DEDED8 0%, rgba(255, 255, 255, 0) 100%);
+      }
+      .bottom--blur{
+        bottom: -1px;
+        background: linear-gradient(to top, #DEDED8 0%, rgba(255, 255, 255, 0) 100%);
+      }
+    }
+  }
+
+  .text__wrapper {
+    flex: 0 0 13%;
+  }
+}
+
+@keyframes neura-page {
+  0% {
+    opacity: 0;
+  }
+  70%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes supreme-page {
+  0% {
+    opacity: 0;
+  }
+  70%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes sakrai-page {
+  0% {
+    opacity: 0;
+  }
+  70%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 1;
+  }
+}

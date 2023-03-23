@@ -1,0 +1,18 @@
+.vision__body{
+  .vision__block{
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+    .vision__title{
+      font-size: 32px;
+      line-height: 154%;
+      text-align: center;
+      font-family: 'Times New Roman', sans-serif;
+      margin-bottom: 8px;
+    }
+    .vision__text{
+      font-size: 18px;
+      line-height: 154%;
+    }
+  }
+}

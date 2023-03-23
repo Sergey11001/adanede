@@ -1,0 +1,32 @@
+.left__nav {
+  flex: 0 0 13%;
+  text-align: right;
+  color: #949494;
+  transition: color 0.2s ease-in-out;
+  &-white{
+    color: #ffffff;
+  }
+  &-item {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    transition: font-family 0.5s ease-in-out;
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 90px;
+    }
+    .extra{
+      position: absolute;
+      right: 0;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      top: 50%;
+      transform: translate(125%, -50%);
+      z-index: 20;
+      &-item:not(:last-child){
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

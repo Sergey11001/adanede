@@ -1,0 +1,12 @@
+.plan__body{
+  .stage__body{
+    &:not(:last-child){
+      margin-bottom: 30px;
+    }
+    .stage_title{
+      margin-bottom: 25px;
+      font-size: 36px;
+      font-family: "Old English", sans-serif;
+    }
+  }
+}

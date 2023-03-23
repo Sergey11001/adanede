@@ -1,0 +1,36 @@
+.contacts__body {
+  .contacts__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contact__item{
+      flex: 0 0 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact__img{
+      width: 120px;
+      height: 360px;
+      margin-bottom: 88px;
+    }
+    .contact__title{
+      font-size: 32px;
+      line-height: 154.19%;
+      margin-bottom: 16px;
+    }
+    .contact__text{
+      font-size: 10px;
+      line-height: 154.19%;
+    }
+    .contact__links{
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      line-height: 154.19%;
+      .contact__link:not(:last-child){
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

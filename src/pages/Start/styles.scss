@@ -1,0 +1,13 @@
+.start__body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  span{
+    font-size: 100px;
+    line-height: 163px;
+    text-shadow: 7.5px 7.5px 0 rgba(86, 25, 218, 0.7);
+    font-family: 'Old English';
+  }
+}

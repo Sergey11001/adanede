@@ -1,0 +1,39 @@
+.soon__body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  .blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    span{
+      font-size: 90px;
+      line-height: 163px;
+      text-shadow: 5px 5px 0 rgba(86, 25, 218, 0.7);
+      font-family: 'Old English', sans-serif;
+    }
+  }
+  .bd__blur-text{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    .text--blur{
+      filter: blur(5px);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding: 2px;
+      pointer-events: none;
+    }
+  }
+}

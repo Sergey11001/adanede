@@ -1,0 +1,59 @@
+.pagination{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+
+  .project__dots{
+    display: inline-flex;
+    width: 50px;
+    justify-content: space-between;
+    position: relative;
+    .active-dot{
+      position: absolute;
+      height: 12px;
+      width: 12px;
+      transition: all 0.2s ease-in-out;
+      filter: blur(3px);
+      z-index: -1;
+      border-radius: 50%;
+      animation: dots-pulsar;
+      animation-iteration-count: infinite;
+      animation-duration: 1s;
+      animation-direction: alternate;
+      &__neura{
+        background-color: blueviolet;
+      }
+      &__supreme{
+        background-color: #ef2525;
+      }
+      &__sakrai{
+        background-color: #1a9b1a;
+      }
+    }
+    .project__dot{
+      flex: 0 0 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid white;
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes dots-pulsar {
+  0%{
+    width: 10px;
+    height: 10px;
+  }
+  50%{
+    width: 12px;
+    height: 12px;
+  }
+  100%{
+    width: 14px;
+    height: 14px;
+  }
+}

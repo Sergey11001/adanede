@@ -1,0 +1,147 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  &-neura{
+    background: #000000;
+    animation: neura-bg;
+    animation-duration: 2s;
+  }
+  &-supreme{
+    background: #272829 url("./assets/supreme.svg") center / cover no-repeat;
+    animation: supreme-bg;
+    animation-duration: 2s;
+  }
+  &-sakrai{
+    background: radial-gradient(50% 50% at 50% 50%, #1D3936 0%, #010F0E 100%);
+  }
+
+}
+
+.start {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .letters {
+    position: relative;
+    margin-bottom: 50px;
+    height: 200px;
+    max-width: 1800px;
+    width: 100%;
+
+    .letter {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 50%;
+      width: 70px;
+      height: 200px;
+      pointer-events: none;
+    }
+
+    .letterE {
+      transform: translateX(calc(-50% + 20px));
+    }
+  }
+}
+
+.text {
+  max-width: 188px;
+  position: absolute;
+  bottom: -50%;
+  transition: color 0.2s ease-in-out;
+  &__reverse {
+    transform: rotate(180deg);
+    color: #949494;
+    text-align: right;
+    position: relative;
+    bottom: 0;
+  }
+  &-white{
+    color: white;
+    position: relative;
+    bottom: 0;
+  }
+  &__name {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 3px;
+    &-project{
+      font-size: 24px;
+      margin-bottom: 9px;
+    }
+  }
+
+  &__sign {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 6px;
+  }
+
+  &__sub {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 9px;
+  }
+
+  &__content {
+    font-style: italic;
+    font-size: 8px;
+    line-height: 154%;
+    &-project{
+      font-size: 14px;
+    }
+  }
+  &__mail{
+    line-height: 19px;
+    margin-top: 87px;
+    display: inline-block;
+  }
+}
+
+.start__dots {
+  display: flex;
+  position: absolute;
+  bottom: 13%;
+  right: 13%;
+  z-index: 10;
+  left: 13%;
+  .start__dot {
+    width: 16px;
+    height: 12px;
+    background: #000000;
+    position: absolute;
+    right: 0;
+    transition: background-color 0.2s ease-in-out;
+    &-white{
+      background: #a4a4a4;
+    }
+  }
+}
+
+@keyframes neura-bg {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100%{
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes supreme-bg {
+  0% {
+    background-color: rgba(39, 40, 41, 0);
+  }
+  100%{
+    background-color:rgba(39, 40, 41, 1);
+  }
+}
