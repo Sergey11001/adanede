@@ -2,7 +2,7 @@ import React from 'react';
 import {motion} from "framer-motion";
 
 import './styles.scss'
-import "../../animation/styles/glitcher.scss"
+import "../../utils/animation/styles/glitcher.scss"
 
 
 const Start = () => {
