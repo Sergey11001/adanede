@@ -1,4 +1,7 @@
 .about__text{
   font-size: 18px;
-  line-height: 154.19%;
+  line-height: 154%;
+  @media (max-width: 992px) {
+    font-size: 16px;
+  }
 }

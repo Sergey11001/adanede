@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import './styles.scss'
 import {motion, useAnimation} from "framer-motion";
 import {useSelector} from "react-redux";
 

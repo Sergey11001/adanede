@@ -15,6 +15,26 @@
     &:not(:last-child) {
       margin-bottom: 90px;
     }
+    .nav--item-text{
+      transition: opacity 0.5s ease-in-out;
+      opacity: 1;
+    }
+    .nav--item-opacity{
+      opacity: 0;
+    }
+    .animation--item{
+      font-family: "Old English", sans-serif;
+      display: inline;
+      font-size: 30px;
+      text-transform: lowercase;
+      color: #000000;
+      text-shadow: 2px 2px 0 rgba(86, 25, 218, 0.7);
+      position: absolute;
+      z-index: -1;
+      &-white{
+        color: white;
+      }
+    }
     .extra{
       position: absolute;
       right: 0;
@@ -22,10 +42,16 @@
       line-height: 24px;
       text-align: center;
       top: 50%;
-      transform: translate(125%, -50%);
+      transform: translate(140%, -50%);
       z-index: 20;
       &-item:not(:last-child){
         margin-bottom: 24px;
+      }
+      &-item{
+        position: relative;
+        .animation--item{
+          font-size: 25px;
+        }
       }
     }
   }

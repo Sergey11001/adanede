@@ -18,7 +18,7 @@ export const routes = [
         element: <Contacts />
     },
     {
-        path: "/white_paper",
+        path: "/whitepaper",
         element: <Whitepaper />
     },
     {

@@ -18,7 +18,7 @@ const About = () => {
                 molestie non sem. Vestibulum aliquam sagittis neque sit amet congue. Fusce vitae eros rutrum, commodo mi
                 non, convallis ex. Sed vitae lorem nibh. Aliquam molestie metus eu elit gravida dictum. Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit.
-                <br/><br/>
+                <br/>
                 <br/>
                 Fusce velit felis, gravida vel mattis eget, molestie non sem. Vestibulum aliquam sagittis neque sit amet
                 congue. Fusce vitae eros rutrum, commodo mi non, convallis ex. Sed vitae lorem nibh. Aliquam molestie
@@ -27,7 +27,6 @@ const About = () => {
                 Fusce vitae eros rutrum, commodo mi non, convallis ex. Sed vitae lorem nibh. Aliquam molestie metus eu
                 elit gravida dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit felis, gravida
                 vel mattis eget, molestie non sem. Vestibulum aliquam sagittis neque sit amet congue.
-                <br/>
                 <br/>
                 <br/>
                 <br/>
