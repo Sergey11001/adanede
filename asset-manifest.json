@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/adanede/static/css/main.a6c1f681.css",
+    "main.js": "/adanede/static/js/main.4c17d5ca.js",
+    "static/media/blur-text.svg": "/adanede/static/media/blur-text.60fa3f74fa26a9584d5012014745561b.svg",
+    "static/media/neur.png": "/adanede/static/media/neur.798a8b0250ac7f4e6bdf.png",
+    "static/media/old.ttf": "/adanede/static/media/old.99efa0545c3cc7716712.ttf",
+    "static/media/sakrai-logo.png": "/adanede/static/media/sakrai-logo.ca3b73c1b78c07117bff.png",
+    "static/media/contact2.svg": "/adanede/static/media/contact2.c5269624871066a7242e56f190992f64.svg",
+    "static/media/supreme-logo.png": "/adanede/static/media/supreme-logo.f86755a7591665b0dac5.png",
+    "static/media/neura-logo.svg": "/adanede/static/media/neura-logo.8967bb214954669aa2a9.svg",
+    "static/media/supreme.svg": "/adanede/static/media/supreme.1f3053d95fdb3cf2f522.svg",
+    "static/media/contact3.svg": "/adanede/static/media/contact3.7b6891471b79682a3cd299f2ca0e6506.svg",
+    "static/media/V.svg": "/adanede/static/media/V.e16749b2d9ae71af2eb10b2bf2a876db.svg",
+    "index.html": "/adanede/index.html",
+    "static/media/A.svg": "/adanede/static/media/A.9253f70d69127402d377f7f2b671c650.svg",
+    "static/media/E.svg": "/adanede/static/media/E.10d709742029a18037fb4ee69a8832e9.svg",
+    "static/media/N.svg": "/adanede/static/media/N.c89d55548736684ee77f1646a1495ab3.svg",
+    "static/media/contact1.svg": "/adanede/static/media/contact1.624dc64bff335c9a79797589a5abcb66.svg",
+    "main.a6c1f681.css.map": "/adanede/static/css/main.a6c1f681.css.map",
+    "main.4c17d5ca.js.map": "/adanede/static/js/main.4c17d5ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6c1f681.css",
+    "static/js/main.4c17d5ca.js"
+  ]
+}
