@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/adanede/static/css/main.a6c1f681.css",
-    "main.js": "/adanede/static/js/main.4c17d5ca.js",
+    "main.js": "/adanede/static/js/main.b648bedc.js",
     "static/media/blur-text.svg": "/adanede/static/media/blur-text.60fa3f74fa26a9584d5012014745561b.svg",
     "static/media/neur.png": "/adanede/static/media/neur.798a8b0250ac7f4e6bdf.png",
     "static/media/old.ttf": "/adanede/static/media/old.99efa0545c3cc7716712.ttf",
@@ -18,10 +18,10 @@
     "static/media/N.svg": "/adanede/static/media/N.c89d55548736684ee77f1646a1495ab3.svg",
     "static/media/contact1.svg": "/adanede/static/media/contact1.624dc64bff335c9a79797589a5abcb66.svg",
     "main.a6c1f681.css.map": "/adanede/static/css/main.a6c1f681.css.map",
-    "main.4c17d5ca.js.map": "/adanede/static/js/main.4c17d5ca.js.map"
+    "main.b648bedc.js.map": "/adanede/static/js/main.b648bedc.js.map"
   },
   "entrypoints": [
     "static/css/main.a6c1f681.css",
-    "static/js/main.4c17d5ca.js"
+    "static/js/main.b648bedc.js"
   ]
 }
