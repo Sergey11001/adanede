@@ -11,7 +11,7 @@ const Navigation = () => {
     const theme = useSelector(state => state.theme.theme)
     const location = useLocation()
     useEffect(() => {
-        if (location.pathname === '/projects') {
+        if (location.pathname === '/adanede/projects') {
             dispatch(setTheme('black'))
             dispatch(setProject('neura'))
         } else {
@@ -40,7 +40,7 @@ const Navigation = () => {
                     }
                 </AnimatePresence>
                 <Link
-                    to="/about"
+                    to="/adanede/about"
                     className={location.pathname.includes('about') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                 >
                     about
@@ -64,7 +64,7 @@ const Navigation = () => {
                     }
                 </AnimatePresence>
                 <Link
-                    to="/projects"
+                    to="/adanede/projects"
                     className={location.pathname.includes('projects') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                 >
                     projects
@@ -88,7 +88,7 @@ const Navigation = () => {
                     }
                 </AnimatePresence>
                 <Link
-                    to="/whitepaper"
+                    to="/adanede/whitepaper"
                     className={location.pathname.includes('whitepaper') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                 >
                     whitepaper
@@ -112,7 +112,7 @@ const Navigation = () => {
                     }
                 </AnimatePresence>
                 <Link
-                    to="/investors/plan"
+                    to="/adanede/investors/plan"
                     className={location.pathname.includes('investors') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                 >
                     investor's
@@ -143,7 +143,7 @@ const Navigation = () => {
                                     }
                                 </AnimatePresence>
                                 <Link
-                                    to="/investors/plan"
+                                    to="/adanede/investors/plan"
                                     className={location.pathname.includes('plan') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                                 >
                                     plan
@@ -167,7 +167,7 @@ const Navigation = () => {
                                     }
                                 </AnimatePresence>
                                 <Link
-                                    to="/investors/vision"
+                                    to="/adanede/investors/vision"
                                     className={location.pathname.includes('vision') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                                 >
                                     vision
@@ -191,7 +191,7 @@ const Navigation = () => {
                                     }
                                 </AnimatePresence>
                                 <Link
-                                    to="/investors/stats"
+                                    to="/adanede/investors/stats"
                                     className={location.pathname.includes('stats') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                                 >
                                     stats
@@ -220,7 +220,7 @@ const Navigation = () => {
                     }
                 </AnimatePresence>
                 <Link
-                    to="/contacts"
+                    to="/adanede/contacts"
                     className={location.pathname.includes('contacts') ? "nav--item-text nav--item-opacity" : "nav--item-text"}
                 >
                     contacts
