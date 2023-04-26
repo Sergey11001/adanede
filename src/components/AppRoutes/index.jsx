@@ -10,7 +10,7 @@ const AppRoutes = () => {
             <Routes location={location} key={location.pathname}>
                 {
                     routes.map(route => (
-                        <Route key={route.path} path={route.path} element={route.element} />
+                        <Route key={route.path} path={"/adanede" + route.path} element={route.element} />
                     ))
                 }
             </Routes>
